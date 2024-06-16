@@ -1,6 +1,14 @@
+:root {
+    --branding-color: #212529;
+    --caption-font-family: "Roboto", sans-serif;
+    --secondary-color: white;
+}
+
+
 body{
-    color: white;
-    background-color: #202020;
+    color: var(--secondary-color);
+    background-color: var(--branding-color);
+
 }
 
 .montserrat-button {
@@ -9,17 +17,17 @@ body{
   font-weight: bold;
   font-style:normal;
   border-radius: 50px;
-  background-color: white;
+  background-color: var(--secondary-color);
   letter-spacing: 2px;
   padding: 18px;
   font-size: 14px;
-  color: #202020;
+  color: var(--branding-color);
   border: none;
 
 }
 
 .roboto-bold {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--caption-font-family);
   font-weight: 700;
   font-style: normal;
 }
@@ -31,12 +39,16 @@ h1 {
 }
 
 .hero {
-    background-image: url(/media/danabw.png);
+    background-image: url(/media/danabw2.png);
     background-size: cover;
 }
 
+.caption {
+      font-family: var(--caption-font-family);
+}
+
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--caption-font-family);
   font-style:normal; 
   font-size: 18px;
 }
