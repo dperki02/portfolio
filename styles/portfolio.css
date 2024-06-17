@@ -2,7 +2,10 @@
     --branding-color: #212529;
     --caption-font-family: "Roboto", sans-serif;
     --secondary-color: white;
+    --tertiary-color: #272142;
 }
+
+
 
 
 body{
@@ -15,16 +18,31 @@ body{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  font-style:normal;
   border-radius: 50px;
   background-color: var(--secondary-color);
-  letter-spacing: 2px;
-  padding: 18px;
+  letter-spacing: 1.5px;
+  padding: 30px, 18px;
   font-size: 14px;
-  color: var(--branding-color);
+  color: var(--tertiary-color);
   border: none;
+}
+
+h6 {
+   color: #F65282; 
+}
+
+.description {
+    font-family: var(--caption-font-family);
+    letter-spacing: 10%;
+    text-align: left;
 
 }
+
+.social-bar {
+    display: flex;
+    justify-content:space-around;
+}
+
 
 .roboto-bold {
   font-family: var(--caption-font-family);
@@ -39,7 +57,7 @@ h1 {
 }
 
 .hero {
-    background-image: url(/media/danabw2.png);
+    background-image: url(/media/danabw1.png);
     background-size: cover;
 }
 
@@ -50,5 +68,29 @@ h1 {
 p {
   font-family: var(--caption-font-family);
   font-style:normal; 
-  font-size: 18px;
+  font-size: 18px; 
+  line-height: 1.5;
+}
+.card {
+    font-family: var(--caption-font-family);
+
+}
+.card-title {
+    font-weight: bolder;
+    color: #F65282;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .footer {
+    display: none;
+  }
 }
