@@ -56,6 +56,15 @@ h1 {
     font-size: 72px;
 }
 
+.about-section {
+  padding: 150px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
 .hero {
     background-image: url(/media/danabw1.png);
     background-size: cover;
@@ -73,16 +82,17 @@ p {
 }
 .card {
     font-family: var(--caption-font-family);
-
+    border: none;
 }
 .card-title {
     font-weight: bolder;
     color: #F65282;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 36px;
+    font-size: 44px;
+    line-height: 56px;
     text-align: center;
   }
 
@@ -90,7 +100,18 @@ p {
     font-size: 18px;
   }
 
-  .footer {
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  h6 {
     display: none;
   }
+
+  .description {
+    text-align: center;
+  }
+
+
 }
