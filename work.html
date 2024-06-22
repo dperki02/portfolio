@@ -17,44 +17,39 @@
   </head>
 
   <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">DPP</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+      <img src="media/dana logo.jpeg" class="logo d-none d-md-block" alt="Dana"/>
+      <img src="media/dana logo small.png" class="logo d-block d-md-none" alt="Dana"/>
+      </a>
+      <ul>
+        <li class="navigation-item">
+          <a class="navigation-link active" href="/">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html">About Me</a>
+        <li class="navigation-item">
+          <a class="navigation-link" href="/about.html">About</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="active navigation-item dropdown">
+          <a class="navigation-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Portfolio
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/work.html">Projects</a></li>
             <li><a class="dropdown-item" href="/work.html">Professional Portfolio</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact.html">Contact Me</a>
-        </li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Blog</a>
+        <li class="navigation-item">
+          <a class="navigation-link" href="/contact.html">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   </div>
-</nav>
 
-<div class="content-container container">
-  <div class="content pt-5">
-  <h1 class="m-5 text-center">Take a look 👀 at what I've been working On!</h1>
+
+<div class="container">
+  <div class="content">
+  <h2 class="m-5 text-center">Take a look 👀 at what I've been working On!</h2>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card">
@@ -96,6 +91,28 @@
           <div class="card-body">
             <h5 class="card-title">Wise Owl</h5>
             <p class="card-text">Introducing Wise Owl, your personal fountain of wisdom and inspiration! Harness the power of artificial intelligence to discover the perfect quote for any occasion, topic, or mood. Whether you're seeking motivation, wisdom, or a touch of humor, Wise Owl delivers personalized insights at the tap of a button. Built with HTML, CSS, and Javascript</p>
+            <a href="#" class="btn btn-outline-dark">Try It</a>
+          </div>
+        </div>
+      </div>
+
+            <div class="col">
+        <div class="card">
+          <img src="/media/croissants.png" class="card-img-top img-fluid" alt="Wise Owl Quote">
+          <div class="card-body">
+            <h5 class="card-title">Dana's Crispy Croissants</h5>
+            <p class="card-text">Introducing Crispy Croissants, where tradition meets perfection. Static Website Built with HTML, CSS, and Javascript.</p>
+            <a href="#" class="btn btn-outline-dark">Take a peek</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="/media/worldclock.png" class="card-img-top img-fluid" alt="Wise Owl Quote">
+          <div class="card-body">
+            <h5 class="card-title">Wise Owl</h5>
+            <p class="card-text">Introducing the world clock. Built with HTML, CSS, and Javascript</p>
             <a href="#" class="btn btn-outline-dark">Try It</a>
           </div>
         </div>
