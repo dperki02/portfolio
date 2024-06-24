@@ -5,9 +5,6 @@
     --tertiary-color: #272142;
 }
 
-
-
-
 body{
     color: var(--secondary-color);
     background-color: var(--branding-color);
@@ -57,6 +54,10 @@ h1 {
     margin-top: 72px !important;
     letter-spacing: 7px;
     font-size: 72px;
+}
+
+h4 {
+  font-size: 48px;
 }
 
 .content-container {
@@ -122,6 +123,43 @@ nav ul {
   
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: rgb(206, 210, 214);
+  padding: 30px 120px;
+  border-radius:10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: lightslategray;
+}
+
+a .social-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin: 0 20px;
+  padding: 10px;
+  transition: all 100ms ease-in-out;
+}
+
+a .social-link:hover {
+  color: #F65282;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -146,6 +184,10 @@ nav ul {
     display: none;
   }
 
+  h4 {
+    font-size: 26px;
+  }
+
   .description {
     text-align: center;
   }
@@ -153,6 +195,11 @@ nav ul {
   nav a {
     font-size: 14px;
   }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+
 
 
 }
